@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameOfLifeController">
+   <center>
+      <Canvas fx:id="canv" height="500.0" width="500.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button fx:id="btn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnPressed" prefHeight="38.0" prefWidth="129.0" text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
